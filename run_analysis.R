@@ -191,6 +191,6 @@ createAvgTable <- function() {
                         tGravityAccStdAvgX=mean(tGravityAccStdX),
                         tGravityAccStdAvgY=mean(tGravityAccStdY),
                         tGravityAccStdAvgZ=mean(tGravityAccStdZ))
-    write.table(x = x, file = "AvgTable.txt")
+    write.table(x = x, file = "AvgTable.txt", row.names = FALSE)
    
 }
