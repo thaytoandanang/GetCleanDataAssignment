@@ -1,0 +1,33 @@
+1. Activity Labels:
+    1 WALKING
+    2 WALKING_UPSTAIRS
+    3 WALKING_DOWNSTAIRS
+    4 SITTING
+    5 STANDING
+    6 LAYING
+2. Subject: [1..30] for 30 subjects
+3. Variables:
+    1 Subject: c(1:30)
+    2 Activity: c("WALKING", "WALKING_UPSTAIRS", "WALKING_DOWNSTAIRS",
+                    "SITTING", "STANDING", "LAYING")
+3.1 From body_acc_.. files:
+    3 tBodyAccMeanX: tBodyAccmean()-X
+    4 tBodyAccMeanY: tBodyAcc-mean()-Y
+    5 tBodyAccMeanZ: tBodyAcc-mean()-Z
+    6 tBodyAccStdX: tBodyAcc-std()-X
+    7 tBodyAccStdY: tBodyAcc-std()-Y
+    8 tBodyAccStdZ: tBodyAcc-std()-Z
+3.2 From body_gyro_... files:
+    9 tBodyGyroMeanX: tBodyGyro-mean()-X
+    10 tBodyGyroMeanY: tBodyGyro-mean()-Y
+    11 tBodyGyroMeanZ: tBodyGyro-mean()-Z
+    12 tBodyGyroStdX: tBodyGyro-std()-X
+    13 tBodyGyroStdY: tBodyGyro-std()-Y
+    14 tBodyGyroStdZ: tBodyGyro-std()-Z
+3.3 From total_acc_... file:
+    15 tGravityAccMeanX: tGravityAcc-mean()-X
+    16 tGravityAccMeanY: tGravityAcc-mean()-Y
+    17 tGravityAccMeanZ: tGravityAcc-mean()-Z
+    18 tGravityAccStdX: tGravityAcc-std()-X
+    19 tGravityAccStdY: tGravityAcc-std()-Y
+    20 tGravityAccStdZ: tGravityAcc-std()-Z
